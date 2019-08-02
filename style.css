@@ -1,0 +1,60 @@
+.jumbotron{
+    font-family: 'Lobster', cursive;
+    color: white
+}
+
+
+.boxes{
+    background-color: lightgreen;
+    color: black
+}
+header{
+    font-family: 'Lobster', cursive;
+    background-color: lightskyblue;
+    width: 350px;
+    text-align: center;
+    color: white
+    
+    
+}
+
+ul.Projects{
+    list-style-type: square;
+}
+
+ul.Background{
+    list-style-type: square;
+}
+
+ul.Skillset{
+    list-style-type: square; 
+}
+
+#box1{
+    margin-right: 20px;
+    margin-left: -40px;
+}
+
+#box3{
+    margin-left:20px;
+    margin-right: -40px
+}
+
+.container{
+    margin-top: 20px;
+    
+}
+
+
+@media only screen and (max-width: 320px){
+    .boxes{
+    margin-bottom: 10px;
+    
+    flex-direction: column;
+    flex-wrap: wrap;
+    }
+}
+
+body{
+    background-color:lightskyblue
+}
